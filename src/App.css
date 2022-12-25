@@ -1,0 +1,8 @@
+#navLinks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    /* padding: 20px 0px; */
+}

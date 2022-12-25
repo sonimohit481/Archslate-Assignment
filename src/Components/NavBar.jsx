@@ -9,11 +9,8 @@ export const NavBar = () => {
   return (
     <div id="Header">
       <div id="leftHeader">
-        {/* <div> */}
         <img src="/Images/Logomain.png" alt="logo image" />
         <h1>Archslate</h1>
-        {/* </div>
-        <div></div> */}
       </div>
       <div id="rightHeader">
         <div className="navicons">
