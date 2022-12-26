@@ -19,7 +19,7 @@ const NavbarWrapper = styled.div`
     margin: auto;
     font-size: 20px;
     padding:20px 0px;
-    background-color: red;
+    background-color: white;
     margin-top:2px;
 
 `;
@@ -28,7 +28,6 @@ function App() {
   return (
     <div >
       <NavBar />
-
       <NavbarWrapper>
         <StyledLink className='subNavLinks' to={"/"} >Search Job</StyledLink>
         <StyledLink className='subNavLinks' to={"/appliedjob"} >Applied</StyledLink>
